@@ -688,4 +688,4 @@ resetToStart()
     操作按鈕（Hint / Check / Solve / Reset）
        ↓
     計時器 + 訊息提示
-![01](
+![01](https://github.com/090326/mid_report/blob/ddb33bb5841d28dfe0eaae5214f59afa6a8840cc/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202025-10-30%20215005.png)
