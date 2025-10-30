@@ -688,3 +688,4 @@ resetToStart()
     操作按鈕（Hint / Check / Solve / Reset）
        ↓
     計時器 + 訊息提示
+![01](
