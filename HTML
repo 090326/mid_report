@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Sudoku - 可變數出題</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="wrap">
+    <div class="top">
+      <div>
+        <h1>數獨 Sudoku（可調整題目變數）</h1>
+        <div class="small">可選難度或直接設定「保留格數」。按 Generate 隨機出題（保證唯一解）。</div>
+      </div>
+
+      <div class="controls">
+        <label class="small">難度：
+          <select id="difficulty">
+            <option value="easy">Easy</option>
+            <option value="medium" selected>Medium</option>
+            <option value="hard">Hard</option>
+          </select>
+        </label>
+
+        <label class="small">保留格數：
+          <input id="givensRange" type="range" min="17" max="60" value="36" />
+          <span id="givensLabel">36</span>
+        </label>
+
+        <button id="generateBtn" class="secondary">Generate</button>
+        <button id="checkBtn">Check</button>
+        <button id="hintBtn" class="secondary">Hint</button>
+        <button id="solveBtn" class="secondary">Solve</button>
+        <button id="resetBtn" class="warn">Reset</button>
+      </div>
+    </div>
+
+    <div id="board" class="board" aria-label="Sudoku board"></div>
+
+    <div class="status">
+      <div class="timer">時間：<span id="time">00:00</span></div>
+      <div class="small" id="message"></div>
+    </div>
+
+    <footer>Generate = 產生新題（唯一解）。Hint = 填一格正確數字。Solve = 顯示完整解答。Reset = 還原當前題目並重置時間。</footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
