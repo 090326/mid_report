@@ -260,7 +260,7 @@ conflict：衝突格顏色（紅色）
 
 設定字型、背景色、文字顏色、頁面外邊距
 
-標題 <h1> 使用強調色，字重加粗
+標題 h1 使用強調色，字重加粗
 
     body{
     font-family: "Noto Sans", "Segoe UI", Roboto, Arial;
